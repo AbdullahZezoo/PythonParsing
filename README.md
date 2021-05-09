@@ -1,6 +1,6 @@
-###################################################################
 Python Parser
-###################################################################
+=============
+parse files to json from different file types example (csv, xml)
 
 Installation
 ============
@@ -11,20 +11,19 @@ Run
     parser.py <file_type> <file_path>
   
 
-example:
+Run Example:
 
-.. code-block:: python
-
+```
     >>> parser.py csv csv/customers.csv
     >>> parser.py csv csv/customers.csv csv/vehicles.csv
     >>> parser.py xml xml/customer1.xml
     >>> parser.py xml xml/customer1.xml xml/customers.xml
-    
+``` 
+
     
 To handle issues:
 
-.. code-block:: python
-
+```
     >>> parser.py txt txt/customer/txt
     txt file type is not supported
     >>> parser.py csv csv.csv
@@ -34,7 +33,7 @@ To handle issues:
     >>> parser.py
     program takes <file_type> <file_path>
     example > parser.py csv csv/customers.csv
-   
+```
 
 
 
